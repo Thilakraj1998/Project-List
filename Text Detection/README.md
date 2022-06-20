@@ -1,4 +1,4 @@
-<img src="">
+<img src="https://miro.medium.com/max/1026/1*FtOfzBnItMNnIpmjqaywEA.png">
 
 ### Text Detection
 
