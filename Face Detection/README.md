@@ -16,3 +16,14 @@ Since Face Detection Problem has a wide variety of applicable Application in dif
 * Implementation should be easy to integrate with restful API frameworks.
 * Output of face detection module should be saved in respective formats.
 
+### Usage
+
+* Create a separate ipynb file required for model prediction/usage of module.
+* Create a function which handle all the data preprocessing and engineering which is required to make prediction.
+
+### Submission
+
+* Training Code file(.ipynb)
+* Usage Code file(.ipynb)
+* Saved Model file(.h5/.pickle)
+

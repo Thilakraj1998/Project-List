@@ -28,9 +28,21 @@ Content that tarnishes a platform or a brand’s reputation can take various for
 
 The problem that we are trying to solve is essentially a text classification problem.
 
+### Implement
 
 The system should perform Text Moderation,
 
 * Develop Python Implementation of Text Moderation
 * Implementation should have the ability to infer diiferent level of text sensitivity or multilingual.
 * Implementation should be easy to integrate with restful API frameworks.
+
+### Usage
+
+* Create a separate ipynb file required for model prediction/usage of module.
+* Create a function which handle all the data preprocessing and engineering which is required to make prediction.
+
+### Submission
+
+* Training Code file(.ipynb)
+* Usage Code file(.ipynb)
+* Saved Model file(.h5/.pickle)

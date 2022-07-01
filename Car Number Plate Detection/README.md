@@ -20,3 +20,6 @@ Since Car Number/License Plate Detection Problem has a wide variety of applicabl
 * Implementation should have the ability to infer Image files, video files, and video streams(webcams).
 * Implementation should be easy to integrate with restful API frameworks.
 * Output of detection module should be saved in respective formats.
+
+
+

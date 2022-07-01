@@ -10,3 +10,14 @@ The system should be able to classification Video content impacts/type,
 * Develop Python Implementation of Video Moderation using AI/ML technique
 * Implementation should have the ability to infer video files, and video streams(webcams).
 * Implementation should be easy to integrate with restful API frameworks.
+
+### Usage
+
+* Create a separate ipynb file required for model prediction/usage of module.
+* Create a function which handle all the data preprocessing and engineering which is required to make prediction.
+
+### Submission
+
+* Training Code file(.ipynb)
+* Usage Code file(.ipynb)
+* Saved Model file(.h5/.pickle)

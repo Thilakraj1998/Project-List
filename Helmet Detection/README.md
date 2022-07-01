@@ -12,3 +12,15 @@ So, it is necessary to develop a system for automatically detecting helmet weari
 * Develop Python Implementation of Helmet Detection
 * Implementation should have the ability to infer Image files, video files, and video streams(webcams).
 * Implementation should be easy to integrate with restful API frameworks.
+
+
+### Usage
+
+* Create a separate ipynb file required for model prediction/usage of module.
+* Create a function which handle all the data preprocessing and engineering which is required to make prediction.
+
+### Submission
+
+* Training Code file(.ipynb)
+* Usage Code file(.ipynb)
+* Saved Model file(.h5/.pickle)

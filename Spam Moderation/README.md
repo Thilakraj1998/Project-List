@@ -15,3 +15,14 @@ This method is not especially effective and often omits legitimate messages, cal
 * Implement and train Comment Moderation Model in python using AI/ML technique.
 * Implemented Model should be able to classify comment properly.
 * Implementated Model should be easy to integrate with restful API frameworks.
+
+### Usage
+
+* Create a separate ipynb file required for model prediction/usage of module.
+* Create a function which handle all the data preprocessing and engineering which is required to make prediction.
+
+### Submission
+
+* Training Code file(.ipynb)
+* Usage Code file(.ipynb)
+* Saved Model file(.h5/.pickle)

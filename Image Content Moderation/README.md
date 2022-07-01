@@ -10,3 +10,14 @@ The system should be able to classification Image content impacts/type,
 * Develop Python Implementation of Image Moderation using AI/ML technique
 * Implementation should have the ability to infer Image files.
 * Implementation should be easy to integrate with restful API frameworks.
+
+### Usage
+
+* Create a separate ipynb file required for model prediction/usage of module.
+* Create a function which handle all the data preprocessing and engineering which is required to make prediction.
+
+### Submission
+
+* Training Code file(.ipynb)
+* Usage Code file(.ipynb)
+* Saved Model file(.h5/.pickle)

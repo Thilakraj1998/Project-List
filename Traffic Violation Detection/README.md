@@ -11,3 +11,15 @@ The increasing number of cars in cities can cause a high traffic volume and impl
 * Implement a AI Model to Detect Traffic Violation in Python.
 * Implementation should be able to infer Image and Video from different sources.
 * Implementated Model should be easy to integrate with restful API frameworks.
+
+
+### Usage
+
+* Create a separate ipynb file required for model prediction/usage of module.
+* Create a function which handle all the data preprocessing and engineering which is required to make prediction.
+
+### Submission
+
+* Training Code file(.ipynb)
+* Usage Code file(.ipynb)
+* Saved Model file(.h5/.pickle)
