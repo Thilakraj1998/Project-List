@@ -15,8 +15,8 @@ The increasing number of cars in cities can cause a high traffic volume and impl
 
 ### Usage
 
-* Create a separate ipynb file required for model prediction/usage of module.
-* Create a function which handle all the data preprocessing and engineering which is required to make prediction.
+* Create a separate ipynb file required for model prediction/usage of model if utilizing custom trained model.
+* Create a function which will handle all the data preprocessing and engineering which is required to make prediction.
 
 ### Submission
 
