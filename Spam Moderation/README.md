@@ -18,11 +18,13 @@ This method is not especially effective and often omits legitimate messages, cal
 
 ### Usage
 
-* Create a separate ipynb file required for model prediction/usage of model if utilizing custom trained model.
+* Create a separate ipynb file required for model prediction and usage of the model if you are utilising the custom-trained model. If the implementation doesn't require any AI or ML model training or uses a specialised library, avoid creating a separate training ipynb file.
 * Create a function which will handle all the data preprocessing and engineering which is required to make prediction.
 
 ### Submission
 
-* Training Code file(.ipynb)
-* Usage Code file(.ipynb)
-* Saved Model file(.h5/.pickle)
+To make a successful submission to the project repository, the following files have to be submitted:
+
+* Training Code file(.ipynb):- AI/ML model training file for reproducibility of the results.
+* Usage Code file(.ipynb):- A usage file to utilize the model for prediction/Recognition.
+* Saved Model file(.h5/.pickle):- Saved Trained Model in appropriate/accepted format
