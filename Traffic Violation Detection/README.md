@@ -1,4 +1,4 @@
-<img src="https://www.parknsecure.com/images_new/redlight.jpg">
+<img src="https://www.researchgate.net/profile/Ahmet-Sayar/publication/336002491/figure/fig2/AS:833885353046016@1575825169463/Violation-Detection-Flow-Diagram-As-seen-in-the-Figure-4-system-detects-violation-as.jpg">
 
 ### Traffic Violation Detection
 
