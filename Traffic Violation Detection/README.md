@@ -1,4 +1,4 @@
-<img src="https://www.parknsecure.com/images_new/redlight.jpg">
+<img src="https://www.logipix.com/wp-content/uploads/2020/04/vca-measurement.png">
 
 ### Traffic Violation Detection
 
@@ -25,17 +25,3 @@ To make a successful submission to the project repository, the following files h
 * Training Code file(.ipynb):- AI/ML model training file for reproducibility of the results.
 * Usage Code file(.ipynb):- A usage file to utilize the model for prediction/Recognition.
 * Saved Model file(.h5/.pickle):- Saved Trained Model in appropriate/accepted format
-
-### Note
-
-In Usage, file creates a function main() accepting single input, which can either be an image or video. Through this function, other required functions to make detection should be called and return output in the appropriate format.
-
-**Example**:
-
-`
-def main(input):
-    data=data_preprocessing(input)
-    output=model_prediction(input)
-    return output
-    
-`
