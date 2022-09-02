@@ -30,10 +30,10 @@ In Usage, file creates a function main() accepting single input video. Through t
 
 **Example**:
 
-`
+```
 def main(input):
     data=data_preprocessing(input)
     output=model_prediction(input)
     return output
     
-`
+```

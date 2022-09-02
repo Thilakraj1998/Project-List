@@ -34,11 +34,10 @@ To make a successful submission to the project repository, the following files h
 In Usage, file creates a function main() accepting  input text. Through this function, other required functions to make detection/prediction should be called and return output in the appropriate format.
 
 **Example**:
-
-`
+```
 def main(input):
     data=data_preprocessing(input)
     output=model_prediction(input)
     return output
     
-`
+```

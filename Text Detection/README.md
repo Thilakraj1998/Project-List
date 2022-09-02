@@ -31,10 +31,10 @@ In Usage, file creates a function main() accepting single input, which can eithe
 
 **Example**:
 
-`
+```
 def main(input):
     data=data_preprocessing(input)
     output=model_prediction(input)
     return output
     
-`
+```
