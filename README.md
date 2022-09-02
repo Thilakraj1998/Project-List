@@ -1,3 +1,3 @@
 # Project-List
 
-Project List for AICloud community project listing
+Project List for AI Cloud community project listing
