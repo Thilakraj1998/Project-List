@@ -33,7 +33,7 @@ In Usage, file creates a function main() accepting single input video. Through t
 ```
 def main(input):
     data=data_preprocessing(input)
-    output=model_prediction(input)
+    output=model_prediction(data)
     return output
     
 ```

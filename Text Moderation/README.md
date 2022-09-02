@@ -59,7 +59,7 @@ In Usage, file creates a function main() accepting  input text. Through this fun
 ```
 def main(input):
     data=data_preprocessing(input)
-    output=model_prediction(input)
+    output=model_prediction(data)
     return output
     
 ```
