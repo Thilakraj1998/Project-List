@@ -41,3 +41,20 @@ def main(input):
     return output
     
 ```
+
+### YAML Configuration:
+
+Along with the above mentioned requirements and changes, include a YAML file which contains instruction for the execution of Usage file.
+
+YAML file contain details regarding input format,output format, usage file name which included above mentioned main function.
+
+**example :**
+
+```
+version: 1
+input:
+  - type: text
+output:
+  - type: boolean/label
+main: main.ipynb
+```

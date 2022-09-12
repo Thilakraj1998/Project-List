@@ -48,6 +48,23 @@ def main(input):
     
 ```
 
+### YAML Configuration:
+
+Along with the above mentioned requirements and changes, include a YAML file which contains instruction for the execution of Usage file.
+
+YAML file contain details regarding input format,output format, usage file name which included above mentioned main function.
+
+**example :**
+
+```
+version: 1
+input:
+  - type: image
+output:
+  - type: image
+main: main.ipynb
+```
+
 **References**:
 
 1. Johansson MA, Quandelacy TM, Kada S, Prasad PV, Steele M, Brooks JT, et al. SARS-CoV-2 transmission from people without COVID-19 symptoms. JAMA Netw Open. (2021) 4:e2035057. doi: 10.1001/jamanetworkopen.2020.35057
