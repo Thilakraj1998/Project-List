@@ -1,18 +1,31 @@
-<img src="https://miro.medium.com/max/1400/1*Fm58r_RQ53sEHfwFa28LpA.png">
+<img src="https://www.freecodecamp.org/news/content/images/2020/09/wall-5.jpeg">
 
-### Spam Moderation
+### Sentiment Prediction/Analysis
 
-Spam moderation is a program used to detect unsolicited, unwanted, and virus-infected emails and prevent those messages from getting into a user's inbox. Like other types of filtering programs, a spam filter looks for specific criteria on which to base its judgments.
+Sentiment analysis is contextual mining of text which identifies and extracts subjective information in source material, and helping a business to understand the social sentiment of their brand, product or service while monitoring online conversations.
 
-Internet service providers, free online email services, and businesses use email filtering tools to reduce the spam distribution risk. For example, one of the simplest and earliest versions of spam filtering, like the one that Microsoft's Hotmail used, was set to watch out for particular words in the subject lines of messages. An email was excluded from the user's inbox whenever the filter recognized one of the specified words.
+With the recent advances in deep learning, the ability of algorithms to analyse text has improved considerably. 
 
-This method is not especially effective and often omits legitimate messages, called "false positives," while letting actual spam messages through.
+In essence, the sentiment analysis application brings additional flexibility and insight into the presentation of the brand and its products. It allows companies to:
+
+1. track the perception of the brand by the customers;
+2. point out the specific details about the attitude;
+3. Find patterns and trends;
+4. keep a close eye on the presentation by the influencers.
+
+All this allows us to adjust to the state of things accordingly and give the product a proper presentation.
+
+Overall, sentiment analysis can be used to:
+
+1. Automate media monitoring process and the accompanying alert system
+2. Monitor mentions or reviews of the brand on different platforms (blogs, social media, review sites, forums, etc.)
+3.Categorize urgency of mentions according to the relevancy scoring (i.e., which platform, type of user is vital to the brand)
 
 
 
 ### Implement
 
-* Implement and train Comment Moderation Model in python using AI/ML technique.
+* Implement and train Sentiment Analysis Model in python using AI/ML technique.
 * Implemented Model should be able to classify comment properly.
 * Implementated Model should be easy to integrate with restful API frameworks.
 
@@ -47,7 +60,7 @@ def main(input=URL):
     #1. checks for validate URL and download file into the working directory,uses the downloaded file path.
     #2. perform preprocessing on the data.
     #3. perform prediction on the given data and produce respective output
-    #4. return output :output must be a json, which included output prediction. for example {"prediction":"YES/NO"}
+    #4. return output :output must be a json, which included output prediction. for example {"prediction":"sentiment type"}
     
 ```
 

@@ -29,13 +29,21 @@ To make a successful submission to the project repository, the following files h
 
 In Usage, file creates a function main() accepting single input, which can either be an image or video. Through this function, other required functions to make detection should be called and return output in the appropriate format.
 
-**Example**:
+Input must be either URL to the Image/video. if URL is passed then, download the video file into the local directory, else read from the given path.
 
 ```
-def main(input):
-    data=data_preprocessing(input)
-    output=model_prediction(data)
-    return output
+def main(input=URL):  
+    """
+      param1: String : URL for the image/video file.
+
+      return: JSON : output of the model prediction
+
+    """
+    #perform following tasks:
+    #1. checks for validate URL and download file into the working directory,uses the downloaded file path.
+    #2. perform preprocessing on the data.
+    #3. perform prediction on the given data and produce respective output
+    #4. return output :output must be a json, which included output prediction. for example {"output":"SAVED FILE PATH WITH DETECTION","prediction":[List of Detected Brands]]}
     
 ```
 

@@ -33,15 +33,21 @@ To make a successful submission to the project repository, the following files h
 
 In Usage, file creates a function main() accepting  input text. Through this function, other required functions to make detection/prediction should be called and return output in the appropriate format.
 
-**Example**:
+Input must be either single text input or URL to the textfile. if URL is passed then, download the video file into the local directory
 ```
-def main(input):
-    data=data_preprocessing(input)
-    output=model_prediction(data)
-    return output
+def main(input):  
+    """
+      param1: String : URL or simple text
+      return: JSON : output of the model prediction
+
+    """
+    #perform following tasks:
+    #1. checks if the string is validate URL and download file into the working directory,uses the downloaded file path.else use the simple string text for futher task
+    #2. perform preprocessing on the data.
+    #3. perform prediction on the given data and produce respective output
+    #4. return output :output must be a json, which included output prediction. for example {"prediction":OutCome}
     
 ```
-
 ### YAML Configuration:
 
 Along with the above mentioned requirements and changes, include a YAML file which contains instruction for the execution of Usage file.
