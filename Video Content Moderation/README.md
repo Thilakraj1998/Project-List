@@ -60,5 +60,8 @@ input:
   - type: video
 output:
   - type: class/label
-main: usage.ipynb
+requirement: requirement.txt
+main: main.ipynb
 ```
+
+Also include requirement.txt file in the submission with required version of the library mentioned in it.
