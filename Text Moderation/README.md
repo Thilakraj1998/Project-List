@@ -80,9 +80,9 @@ YAML file contain details regarding input format,output format, usage file name 
 ```
 version: 1
 input:
-  - type: text/text.txt
+  type: text/text.txt
 output:
-  - type: label/class
+  type: label
 requirement: requirement.txt
 main: main.ipynb
 ```

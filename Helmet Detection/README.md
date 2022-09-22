@@ -60,9 +60,9 @@ YAML file contain details regarding input format,output format, usage file name 
 ```
 version: 1
 input:
-  - type: image/Video
+  type: image/Video
 output:
-  - type: image
+  type: image
 requirement: requirement.txt
 main: main.ipynb
 ```

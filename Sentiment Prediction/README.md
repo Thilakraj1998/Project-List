@@ -75,9 +75,9 @@ YAML file contain details regarding input format,output format, usage file name 
 ```
 version: 1
 input:
-  - type: text/text files
+  type: text
 output:
-  - type: boolean/label
+  type: label
 requirement: requirement.txt
 main: main.ipynb
 ```

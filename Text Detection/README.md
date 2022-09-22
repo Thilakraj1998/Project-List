@@ -57,9 +57,9 @@ YAML file contain details regarding input format,output format, usage file name 
 ```
 version: 1
 input:
-  - type: image
+  type: image
 output:
-  - type: image
+  type: image & text
 requirement: requirement.txt
 main: main.ipynb
 ```

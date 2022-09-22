@@ -57,9 +57,9 @@ YAML file contain details regarding input format,output format, usage file name 
 ```
 version: 1
 input:
-  - type: video
+  type: video
 output:
-  - type: class/label
+  type: label
 requirement: requirement.txt
 main: main.ipynb
 ```
