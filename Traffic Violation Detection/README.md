@@ -67,5 +67,6 @@ output:
 requirement: requirement.txt
 main: main.ipynb
 ```
+**saved by name : blobcity.yaml**
 
 Also include requirement.txt file in the submission with required version of the library mentioned in it.
