@@ -12,8 +12,8 @@ This method is not especially effective and often omits legitimate messages, cal
 
 ### Implement
 
-* Implement and train Comment Moderation Model in python using AI/ML technique.
-* Implemented Model should be able to classify comment properly.
+* Implement and train Spam Classification Model in python using AI/ML technique.
+* Implemented Model should be able to classify Spam properly.
 * Implementated Model should be easy to integrate with restful API frameworks.
 
 ### Usage
